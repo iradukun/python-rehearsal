@@ -1,10 +1,11 @@
-# Python Program to Print Square Star Pattern
- 
 side = int(input("Please Enter any Side of a Square  : "))
-
+i = 0
 print("Square Star Pattern") 
 
-for i in range(side):
-    for i in range(side):
-        print('*')
-    print()
+while(i < side):
+    j = 0
+    while(j < side):      
+        j = j + 1
+        print('*', end = '  ')
+    i = i + 1
+    print('')
