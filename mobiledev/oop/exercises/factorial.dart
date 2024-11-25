@@ -4,7 +4,7 @@ import 'dart:io';
 class Factorial {
   var  number;
 
-  static int factorial(int n) {
+  static BigInteger factorial(BigInteger n) {
     return n==1 ?1: n*factorial(n-1);
   }
   void takeNumber(){
@@ -17,8 +17,6 @@ class Factorial {
   }
 
 }
-
-
 void main(){
   Factorial factorial = Factorial();
   factorial.takeNumber();
