@@ -16,7 +16,9 @@ class Person {
 
   // Getter
 
-  String get fullName => "$firstName $lastName";
+  String get fullName{
+    return "$firstName $lastName";
+  }
 
 }
 
@@ -24,7 +26,7 @@ class Person {
 
 void main() {
 
-  Person p = Person("John", "Doe");
+  Person p = Person("Moustapha", "Iradukunda");
 
   print(p.fullName);
 
