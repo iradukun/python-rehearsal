@@ -1,0 +1,4 @@
+Encapsulation means hiding data within library , preventing it from outside 
+factors. it helps you control your program and prevent it from becoming too complicated.
+by default every .dart file is a library. a library is a collection of classes and functions
+that can be used by other libraries or applications.
