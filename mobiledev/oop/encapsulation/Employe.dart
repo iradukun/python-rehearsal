@@ -1,12 +1,8 @@
 class Employee {
-
   // Private properties
-
   int? _id;
 
   String? _name;
-
-
 
 // Getter method to access private property _id
 
@@ -15,9 +11,7 @@ class Employee {
     return _id!;
 
   }
-
 // Getter method to access private property _name
-
   String getName() {
 
     return _name!;
