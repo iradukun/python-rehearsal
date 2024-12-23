@@ -9,5 +9,4 @@ class Laptop{
 
 void main(){
   // here laptop is object of class Laptop
-  Laptop laptop= Laptop();
 }

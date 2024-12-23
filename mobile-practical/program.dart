@@ -1,5 +1,4 @@
 import "dart:io";
-import "dart:math";
  class customerPurchase{
  double unitPrice=0;
  double numberOfproducts=0;
