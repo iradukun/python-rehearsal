@@ -4,8 +4,8 @@ import 'dart:io';
 class Factorial {
   var  number;
 
-  static BigInteger factorial(BigInteger n) {
-    return n==1 ?1: n*factorial(n-1);
+  static BigInt factorial(BigInt n) {
+    return n == BigInt.one ? BigInt.one : n * factorial(n - BigInt.one);
   }
   void takeNumber(){
     stdout.write("Enter a number: ");
@@ -13,7 +13,7 @@ class Factorial {
     this.number = number;
   }
   void display(){
-    print("Factorial of $number is ${factorial(number)}");
+    print("Factorial of $number is ${factorial(BigInt.from(number))}");
   }
 
 }

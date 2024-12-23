@@ -1,7 +1,7 @@
 class Home{
   String? name;
   String? address;
-  int numberOfRooms;
+  int numberOfRooms = 0;
 
   void display(){
     print("Name: $name");
